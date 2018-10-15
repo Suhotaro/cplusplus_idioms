@@ -2,7 +2,7 @@
 
 int main()
 {
-	checked_delete();
+	clear_and_minimize();
 
 	return 0;
 }

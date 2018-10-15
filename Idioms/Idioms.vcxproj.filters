@@ -58,6 +58,12 @@
     <ClInclude Include="object.h">
       <Filter>src\idioms\checked_delete</Filter>
     </ClInclude>
+    <ClInclude Include="clear_and_minimize.h">
+      <Filter>src\idioms</Filter>
+    </ClInclude>
+    <ClInclude Include="coercion_by_member_template.h">
+      <Filter>src\idioms</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -98,6 +104,12 @@
     </ClCompile>
     <ClCompile Include="deleter.cpp">
       <Filter>src\idioms\checked_delete</Filter>
+    </ClCompile>
+    <ClCompile Include="clear_and_minimize.cpp">
+      <Filter>src\idioms</Filter>
+    </ClCompile>
+    <ClCompile Include="coercion_by_member_template.cpp">
+      <Filter>src\idioms</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

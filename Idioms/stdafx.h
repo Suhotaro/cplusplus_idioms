@@ -28,6 +28,9 @@ using namespace std;
 #include "calling_virtual_during_initialization.h"
 #include "capability_query.h"
 #include "checked_delete.h"
+#include "clear_and_minimize.h"
+#include "coercion_by_member_template.h"
+
 
 
 // TODO: reference additional headers your program requires here

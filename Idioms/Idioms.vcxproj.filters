@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="src\idioms">
+      <UniqueIdentifier>{2d7273f5-623b-4105-a8ca-ad609b2664de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\idioms\checked_delete">
+      <UniqueIdentifier>{0259371a-d638-4855-86fb-9901d0278118}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="address_of.h">
+      <Filter>src\idioms</Filter>
+    </ClInclude>
+    <ClInclude Include="algebraic_hierarchy.h">
+      <Filter>src\idioms</Filter>
+    </ClInclude>
+    <ClInclude Include="attach_by_initialization.h">
+      <Filter>src\idioms</Filter>
+    </ClInclude>
+    <ClInclude Include="attorney_client.h">
+      <Filter>src\idioms</Filter>
+    </ClInclude>
+    <ClInclude Include="barton_nackman_trick.h">
+      <Filter>src\idioms</Filter>
+    </ClInclude>
+    <ClInclude Include="base_from_member.h">
+      <Filter>src\idioms</Filter>
+    </ClInclude>
+    <ClInclude Include="boost_mutant.h">
+      <Filter>src\idioms</Filter>
+    </ClInclude>
+    <ClInclude Include="calling_virtual_during_initialization.h">
+      <Filter>src\idioms</Filter>
+    </ClInclude>
+    <ClInclude Include="capability_query.h">
+      <Filter>src\idioms</Filter>
+    </ClInclude>
+    <ClInclude Include="checked_delete.h">
+      <Filter>src\idioms\checked_delete</Filter>
+    </ClInclude>
+    <ClInclude Include="deleter.h">
+      <Filter>src\idioms\checked_delete</Filter>
+    </ClInclude>
+    <ClInclude Include="object.h">
+      <Filter>src\idioms\checked_delete</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Idioms.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="address_of.cpp">
+      <Filter>src\idioms</Filter>
+    </ClCompile>
+    <ClCompile Include="algebraic_hierarchy.cpp">
+      <Filter>src\idioms</Filter>
+    </ClCompile>
+    <ClCompile Include="attach_by_initialization.cpp">
+      <Filter>src\idioms</Filter>
+    </ClCompile>
+    <ClCompile Include="attorney_client.cpp">
+      <Filter>src\idioms</Filter>
+    </ClCompile>
+    <ClCompile Include="barton_nackman_trick.cpp">
+      <Filter>src\idioms</Filter>
+    </ClCompile>
+    <ClCompile Include="base_from_member.cpp">
+      <Filter>src\idioms</Filter>
+    </ClCompile>
+    <ClCompile Include="boost_mutant.cpp">
+      <Filter>src\idioms</Filter>
+    </ClCompile>
+    <ClCompile Include="calling_virtual_during_initialization.cpp">
+      <Filter>src\idioms</Filter>
+    </ClCompile>
+    <ClCompile Include="capability_query.cpp">
+      <Filter>src\idioms</Filter>
+    </ClCompile>
+    <ClCompile Include="checked_delete.cpp">
+      <Filter>src\idioms\checked_delete</Filter>
+    </ClCompile>
+    <ClCompile Include="deleter.cpp">
+      <Filter>src\idioms\checked_delete</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

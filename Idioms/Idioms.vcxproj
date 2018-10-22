@@ -165,6 +165,7 @@
     <ClInclude Include="copy_and_swap.h" />
     <ClInclude Include="copy_on_write.h" />
     <ClInclude Include="counted_body__reference_counting.h" />
+    <ClInclude Include="covariant_return_types.h" />
     <ClInclude Include="deleter.h" />
     <ClInclude Include="non_throwing_swap.h" />
     <ClInclude Include="object.h" />
@@ -191,6 +192,7 @@
     <ClCompile Include="copy_and_swap.cpp" />
     <ClCompile Include="copy_on_write.cpp" />
     <ClCompile Include="counted_body__reference_counting.cpp" />
+    <ClCompile Include="covariant_return_types.cpp" />
     <ClCompile Include="deleter.cpp" />
     <ClCompile Include="Idioms.cpp" />
     <ClCompile Include="non_throwing_swap.cpp" />

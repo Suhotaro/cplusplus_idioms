@@ -88,6 +88,9 @@
     <ClInclude Include="counted_body__reference_counting.h">
       <Filter>src\idioms</Filter>
     </ClInclude>
+    <ClInclude Include="covariant_return_types.h">
+      <Filter>src\idioms</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -157,6 +160,9 @@
       <Filter>src\idioms</Filter>
     </ClCompile>
     <ClCompile Include="counted_body__reference_counting.cpp">
+      <Filter>src\idioms</Filter>
+    </ClCompile>
+    <ClCompile Include="covariant_return_types.cpp">
       <Filter>src\idioms</Filter>
     </ClCompile>
   </ItemGroup>

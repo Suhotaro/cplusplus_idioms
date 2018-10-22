@@ -16,6 +16,8 @@
 #include <vector>
 #include <iostream>
 #include <memory>
+#include <cstring>
+#include <algorithm>
 
 using namespace std;
 
@@ -30,7 +32,12 @@ using namespace std;
 #include "checked_delete.h"
 #include "clear_and_minimize.h"
 #include "coercion_by_member_template.h"
-
-
+#include "computational_constructor.h"
+#include "concrete_data_type.h"
+#include "construct_on_first_use.h"
+#include "non_throwing_swap.h"
+#include "copy_on_write.h"
+#include "counted_body__reference_counting.h"
+#include "covariant_return_types.h"
 
 // TODO: reference additional headers your program requires here

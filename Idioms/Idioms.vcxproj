@@ -158,7 +158,15 @@
     <ClInclude Include="checked_delete.h" />
     <ClInclude Include="clear_and_minimize.h" />
     <ClInclude Include="coercion_by_member_template.h" />
+    <ClInclude Include="computational_constructor.h" />
+    <ClInclude Include="concrete_data_type.h" />
+    <ClInclude Include="construction_tracker.h" />
+    <ClInclude Include="construct_on_first_use.h" />
+    <ClInclude Include="copy_and_swap.h" />
+    <ClInclude Include="copy_on_write.h" />
+    <ClInclude Include="counted_body__reference_counting.h" />
     <ClInclude Include="deleter.h" />
+    <ClInclude Include="non_throwing_swap.h" />
     <ClInclude Include="object.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
@@ -176,8 +184,16 @@
     <ClCompile Include="checked_delete.cpp" />
     <ClCompile Include="clear_and_minimize.cpp" />
     <ClCompile Include="coercion_by_member_template.cpp" />
+    <ClCompile Include="computational_constructor.cpp" />
+    <ClCompile Include="concrete_data_type.cpp" />
+    <ClCompile Include="construction_tracker.cpp" />
+    <ClCompile Include="construct_on_first_use.cpp" />
+    <ClCompile Include="copy_and_swap.cpp" />
+    <ClCompile Include="copy_on_write.cpp" />
+    <ClCompile Include="counted_body__reference_counting.cpp" />
     <ClCompile Include="deleter.cpp" />
     <ClCompile Include="Idioms.cpp" />
+    <ClCompile Include="non_throwing_swap.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>

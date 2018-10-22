@@ -22,12 +22,6 @@
     <ClInclude Include="targetver.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="address_of.h">
-      <Filter>src\idioms</Filter>
-    </ClInclude>
-    <ClInclude Include="algebraic_hierarchy.h">
-      <Filter>src\idioms</Filter>
-    </ClInclude>
     <ClInclude Include="attach_by_initialization.h">
       <Filter>src\idioms</Filter>
     </ClInclude>
@@ -64,6 +58,36 @@
     <ClInclude Include="coercion_by_member_template.h">
       <Filter>src\idioms</Filter>
     </ClInclude>
+    <ClInclude Include="algebraic_hierarchy.h">
+      <Filter>src\idioms</Filter>
+    </ClInclude>
+    <ClInclude Include="address_of.h">
+      <Filter>src\idioms</Filter>
+    </ClInclude>
+    <ClInclude Include="computational_constructor.h">
+      <Filter>src\idioms</Filter>
+    </ClInclude>
+    <ClInclude Include="concrete_data_type.h">
+      <Filter>src\idioms</Filter>
+    </ClInclude>
+    <ClInclude Include="construct_on_first_use.h">
+      <Filter>src\idioms</Filter>
+    </ClInclude>
+    <ClInclude Include="construction_tracker.h">
+      <Filter>src\idioms</Filter>
+    </ClInclude>
+    <ClInclude Include="copy_and_swap.h">
+      <Filter>src\idioms</Filter>
+    </ClInclude>
+    <ClInclude Include="non_throwing_swap.h">
+      <Filter>src\idioms</Filter>
+    </ClInclude>
+    <ClInclude Include="copy_on_write.h">
+      <Filter>src\idioms</Filter>
+    </ClInclude>
+    <ClInclude Include="counted_body__reference_counting.h">
+      <Filter>src\idioms</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -71,9 +95,6 @@
     </ClCompile>
     <ClCompile Include="Idioms.cpp">
       <Filter>src</Filter>
-    </ClCompile>
-    <ClCompile Include="address_of.cpp">
-      <Filter>src\idioms</Filter>
     </ClCompile>
     <ClCompile Include="algebraic_hierarchy.cpp">
       <Filter>src\idioms</Filter>
@@ -109,6 +130,33 @@
       <Filter>src\idioms</Filter>
     </ClCompile>
     <ClCompile Include="coercion_by_member_template.cpp">
+      <Filter>src\idioms</Filter>
+    </ClCompile>
+    <ClCompile Include="address_of.cpp">
+      <Filter>src\idioms</Filter>
+    </ClCompile>
+    <ClCompile Include="computational_constructor.cpp">
+      <Filter>src\idioms</Filter>
+    </ClCompile>
+    <ClCompile Include="concrete_data_type.cpp">
+      <Filter>src\idioms</Filter>
+    </ClCompile>
+    <ClCompile Include="construct_on_first_use.cpp">
+      <Filter>src\idioms</Filter>
+    </ClCompile>
+    <ClCompile Include="construction_tracker.cpp">
+      <Filter>src\idioms</Filter>
+    </ClCompile>
+    <ClCompile Include="copy_and_swap.cpp">
+      <Filter>src\idioms</Filter>
+    </ClCompile>
+    <ClCompile Include="non_throwing_swap.cpp">
+      <Filter>src\idioms</Filter>
+    </ClCompile>
+    <ClCompile Include="copy_on_write.cpp">
+      <Filter>src\idioms</Filter>
+    </ClCompile>
+    <ClCompile Include="counted_body__reference_counting.cpp">
       <Filter>src\idioms</Filter>
     </ClCompile>
   </ItemGroup>

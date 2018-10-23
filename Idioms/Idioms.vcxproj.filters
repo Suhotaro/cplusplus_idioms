@@ -91,6 +91,42 @@
     <ClInclude Include="covariant_return_types.h">
       <Filter>src\idioms</Filter>
     </ClInclude>
+    <ClInclude Include="curiously_recurring_template_pattern.h">
+      <Filter>src\idioms</Filter>
+    </ClInclude>
+    <ClInclude Include="empty_base_optimization.h">
+      <Filter>src\idioms</Filter>
+    </ClInclude>
+    <ClInclude Include="SFINAE.h">
+      <Filter>src\idioms</Filter>
+    </ClInclude>
+    <ClInclude Include="enable_if.h">
+      <Filter>src\idioms</Filter>
+    </ClInclude>
+    <ClInclude Include="erase_remove.h">
+      <Filter>src\idioms</Filter>
+    </ClInclude>
+    <ClInclude Include="execute_around_pointer.h">
+      <Filter>src\idioms</Filter>
+    </ClInclude>
+    <ClInclude Include="exploding_return_type.h">
+      <Filter>src\idioms</Filter>
+    </ClInclude>
+    <ClInclude Include="export_guard_macro.h">
+      <Filter>src\idioms</Filter>
+    </ClInclude>
+    <ClInclude Include="expression_template.h">
+      <Filter>src\idioms</Filter>
+    </ClInclude>
+    <ClInclude Include="fake_vtable.h">
+      <Filter>src\idioms</Filter>
+    </ClInclude>
+    <ClInclude Include="fast_pimpl.h">
+      <Filter>src\idioms</Filter>
+    </ClInclude>
+    <ClInclude Include="final_class.h">
+      <Filter>src\idioms</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -163,6 +199,42 @@
       <Filter>src\idioms</Filter>
     </ClCompile>
     <ClCompile Include="covariant_return_types.cpp">
+      <Filter>src\idioms</Filter>
+    </ClCompile>
+    <ClCompile Include="curiously_recurring_template_pattern.cpp">
+      <Filter>src\idioms</Filter>
+    </ClCompile>
+    <ClCompile Include="empty_base_optimization.cpp">
+      <Filter>src\idioms</Filter>
+    </ClCompile>
+    <ClCompile Include="SFINAE.cpp">
+      <Filter>src\idioms</Filter>
+    </ClCompile>
+    <ClCompile Include="enable_if.cpp">
+      <Filter>src\idioms</Filter>
+    </ClCompile>
+    <ClCompile Include="erase_remove.cpp">
+      <Filter>src\idioms</Filter>
+    </ClCompile>
+    <ClCompile Include="execute_around_pointer.cpp">
+      <Filter>src\idioms</Filter>
+    </ClCompile>
+    <ClCompile Include="exploding_return_type.cpp">
+      <Filter>src\idioms</Filter>
+    </ClCompile>
+    <ClCompile Include="export_guard_macro.cpp">
+      <Filter>src\idioms</Filter>
+    </ClCompile>
+    <ClCompile Include="expression_template.cpp">
+      <Filter>src\idioms</Filter>
+    </ClCompile>
+    <ClCompile Include="fake_vtable.cpp">
+      <Filter>src\idioms</Filter>
+    </ClCompile>
+    <ClCompile Include="fast_pimpl.cpp">
+      <Filter>src\idioms</Filter>
+    </ClCompile>
+    <ClCompile Include="final_class.cpp">
       <Filter>src\idioms</Filter>
     </ClCompile>
   </ItemGroup>

@@ -166,9 +166,21 @@
     <ClInclude Include="copy_on_write.h" />
     <ClInclude Include="counted_body__reference_counting.h" />
     <ClInclude Include="covariant_return_types.h" />
+    <ClInclude Include="curiously_recurring_template_pattern.h" />
     <ClInclude Include="deleter.h" />
+    <ClInclude Include="empty_base_optimization.h" />
+    <ClInclude Include="enable_if.h" />
+    <ClInclude Include="erase_remove.h" />
+    <ClInclude Include="execute_around_pointer.h" />
+    <ClInclude Include="exploding_return_type.h" />
+    <ClInclude Include="export_guard_macro.h" />
+    <ClInclude Include="expression_template.h" />
+    <ClInclude Include="fake_vtable.h" />
+    <ClInclude Include="fast_pimpl.h" />
+    <ClInclude Include="final_class.h" />
     <ClInclude Include="non_throwing_swap.h" />
     <ClInclude Include="object.h" />
+    <ClInclude Include="SFINAE.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
@@ -193,9 +205,21 @@
     <ClCompile Include="copy_on_write.cpp" />
     <ClCompile Include="counted_body__reference_counting.cpp" />
     <ClCompile Include="covariant_return_types.cpp" />
+    <ClCompile Include="curiously_recurring_template_pattern.cpp" />
     <ClCompile Include="deleter.cpp" />
+    <ClCompile Include="empty_base_optimization.cpp" />
+    <ClCompile Include="enable_if.cpp" />
+    <ClCompile Include="erase_remove.cpp" />
+    <ClCompile Include="execute_around_pointer.cpp" />
+    <ClCompile Include="exploding_return_type.cpp" />
+    <ClCompile Include="export_guard_macro.cpp" />
+    <ClCompile Include="expression_template.cpp" />
+    <ClCompile Include="fake_vtable.cpp" />
+    <ClCompile Include="fast_pimpl.cpp" />
+    <ClCompile Include="final_class.cpp" />
     <ClCompile Include="Idioms.cpp" />
     <ClCompile Include="non_throwing_swap.cpp" />
+    <ClCompile Include="SFINAE.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>

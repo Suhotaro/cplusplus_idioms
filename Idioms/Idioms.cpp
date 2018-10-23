@@ -1,10 +1,8 @@
 #include "stdafx.h"
 
-
-
 int main()
 {
-	computational_constructor();
+	expression_template();
 
 	return 0;
 }

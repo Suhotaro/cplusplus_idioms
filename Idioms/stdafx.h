@@ -35,9 +35,21 @@ using namespace std;
 #include "computational_constructor.h"
 #include "concrete_data_type.h"
 #include "construct_on_first_use.h"
-#include "non_throwing_swap.h"
 #include "copy_on_write.h"
 #include "counted_body__reference_counting.h"
 #include "covariant_return_types.h"
+#include "curiously_recurring_template_pattern.h"
+#include "empty_base_optimization.h"
+#include "erase_remove.h"
+#include "execute_around_pointer.h"
+#include "exploding_return_type.h"
+#include "export_guard_macro.h"
+#include "expression_template.h"
+#include "fake_vtable.h"
+
+
+#include "non_throwing_swap.h"
+#include "SFINAE.h"
+
 
 // TODO: reference additional headers your program requires here

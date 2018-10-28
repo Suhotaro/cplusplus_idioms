@@ -1,5 +1,4 @@
 #include "stdafx.h"
-#include "enable_if.h"
 
 template <bool, class T = void>
 struct my_enable_if

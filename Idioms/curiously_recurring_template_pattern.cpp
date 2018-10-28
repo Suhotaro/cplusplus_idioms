@@ -1,5 +1,4 @@
 #include "stdafx.h"
-#include "curiously_recurring_template_pattern.h"
 
 template <class Derived>
 struct base

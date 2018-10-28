@@ -1,5 +1,4 @@
 #include "stdafx.h"
-#include "copy_on_write.h"
 
 template <class T>
 class CowPtr

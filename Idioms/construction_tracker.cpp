@@ -1,5 +1,4 @@
 #include "stdafx.h"
-#include "construction_tracker.h"
 
 #include <iostream>
 #include <stdexcept>

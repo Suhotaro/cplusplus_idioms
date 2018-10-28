@@ -1,7 +1,5 @@
 #include "stdafx.h"
 
-#include "attach_by_initialization.h"
-
 class Initilaizer
 {
 	using func = function<void()>;

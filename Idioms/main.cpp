@@ -2,7 +2,7 @@
 
 int main()
 {
-	expression_template();
+	iterator_pair();
 
 	return 0;
 }

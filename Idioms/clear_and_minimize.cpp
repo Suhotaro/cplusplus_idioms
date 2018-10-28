@@ -1,6 +1,4 @@
 #include "stdafx.h"
-#include "clear_and_minimize.h"
-
 
 void fill(std::vector <int>& v)
 {

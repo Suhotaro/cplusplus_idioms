@@ -1,5 +1,4 @@
 #include "stdafx.h"
-#include "covariant_return_types.h"
 
 class Base
 {

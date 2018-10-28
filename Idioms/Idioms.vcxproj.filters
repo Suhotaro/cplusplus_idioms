@@ -22,117 +22,24 @@
     <ClInclude Include="targetver.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="attach_by_initialization.h">
-      <Filter>src\idioms</Filter>
-    </ClInclude>
-    <ClInclude Include="attorney_client.h">
-      <Filter>src\idioms</Filter>
-    </ClInclude>
-    <ClInclude Include="barton_nackman_trick.h">
-      <Filter>src\idioms</Filter>
-    </ClInclude>
-    <ClInclude Include="base_from_member.h">
-      <Filter>src\idioms</Filter>
-    </ClInclude>
-    <ClInclude Include="boost_mutant.h">
-      <Filter>src\idioms</Filter>
-    </ClInclude>
-    <ClInclude Include="calling_virtual_during_initialization.h">
-      <Filter>src\idioms</Filter>
-    </ClInclude>
-    <ClInclude Include="capability_query.h">
-      <Filter>src\idioms</Filter>
-    </ClInclude>
-    <ClInclude Include="checked_delete.h">
-      <Filter>src\idioms\checked_delete</Filter>
-    </ClInclude>
     <ClInclude Include="deleter.h">
       <Filter>src\idioms\checked_delete</Filter>
     </ClInclude>
     <ClInclude Include="object.h">
       <Filter>src\idioms\checked_delete</Filter>
     </ClInclude>
-    <ClInclude Include="clear_and_minimize.h">
+    <ClInclude Include="Idioms.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="include_guard _macro.h">
       <Filter>src\idioms</Filter>
     </ClInclude>
-    <ClInclude Include="coercion_by_member_template.h">
-      <Filter>src\idioms</Filter>
-    </ClInclude>
-    <ClInclude Include="algebraic_hierarchy.h">
-      <Filter>src\idioms</Filter>
-    </ClInclude>
-    <ClInclude Include="address_of.h">
-      <Filter>src\idioms</Filter>
-    </ClInclude>
-    <ClInclude Include="computational_constructor.h">
-      <Filter>src\idioms</Filter>
-    </ClInclude>
-    <ClInclude Include="concrete_data_type.h">
-      <Filter>src\idioms</Filter>
-    </ClInclude>
-    <ClInclude Include="construct_on_first_use.h">
-      <Filter>src\idioms</Filter>
-    </ClInclude>
-    <ClInclude Include="construction_tracker.h">
-      <Filter>src\idioms</Filter>
-    </ClInclude>
-    <ClInclude Include="copy_and_swap.h">
-      <Filter>src\idioms</Filter>
-    </ClInclude>
-    <ClInclude Include="non_throwing_swap.h">
-      <Filter>src\idioms</Filter>
-    </ClInclude>
-    <ClInclude Include="copy_on_write.h">
-      <Filter>src\idioms</Filter>
-    </ClInclude>
-    <ClInclude Include="counted_body__reference_counting.h">
-      <Filter>src\idioms</Filter>
-    </ClInclude>
-    <ClInclude Include="covariant_return_types.h">
-      <Filter>src\idioms</Filter>
-    </ClInclude>
-    <ClInclude Include="curiously_recurring_template_pattern.h">
-      <Filter>src\idioms</Filter>
-    </ClInclude>
-    <ClInclude Include="empty_base_optimization.h">
-      <Filter>src\idioms</Filter>
-    </ClInclude>
-    <ClInclude Include="SFINAE.h">
-      <Filter>src\idioms</Filter>
-    </ClInclude>
-    <ClInclude Include="enable_if.h">
-      <Filter>src\idioms</Filter>
-    </ClInclude>
-    <ClInclude Include="erase_remove.h">
-      <Filter>src\idioms</Filter>
-    </ClInclude>
-    <ClInclude Include="execute_around_pointer.h">
-      <Filter>src\idioms</Filter>
-    </ClInclude>
-    <ClInclude Include="exploding_return_type.h">
-      <Filter>src\idioms</Filter>
-    </ClInclude>
-    <ClInclude Include="export_guard_macro.h">
-      <Filter>src\idioms</Filter>
-    </ClInclude>
-    <ClInclude Include="expression_template.h">
-      <Filter>src\idioms</Filter>
-    </ClInclude>
-    <ClInclude Include="fake_vtable.h">
-      <Filter>src\idioms</Filter>
-    </ClInclude>
-    <ClInclude Include="fast_pimpl.h">
-      <Filter>src\idioms</Filter>
-    </ClInclude>
-    <ClInclude Include="final_class.h">
+    <ClInclude Include="inline_guard_macro.h">
       <Filter>src\idioms</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
-      <Filter>src</Filter>
-    </ClCompile>
-    <ClCompile Include="Idioms.cpp">
       <Filter>src</Filter>
     </ClCompile>
     <ClCompile Include="algebraic_hierarchy.cpp">
@@ -237,5 +144,67 @@
     <ClCompile Include="final_class.cpp">
       <Filter>src\idioms</Filter>
     </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="free_function_allocators.cpp">
+      <Filter>src\idioms</Filter>
+    </ClCompile>
+    <ClCompile Include="function_object.cpp">
+      <Filter>src\idioms</Filter>
+    </ClCompile>
+    <ClCompile Include="generic_container_idioms.cpp">
+      <Filter>src\idioms</Filter>
+    </ClCompile>
+    <ClCompile Include="hierarchy_generation.cpp">
+      <Filter>src\idioms</Filter>
+    </ClCompile>
+    <ClCompile Include="implicit_conversions.cpp">
+      <Filter>src\idioms</Filter>
+    </ClCompile>
+    <ClCompile Include="inline_guard_macro.cpp">
+      <Filter>src\idioms</Filter>
+    </ClCompile>
+    <ClCompile Include="inner_class.cpp">
+      <Filter>src\idioms</Filter>
+    </ClCompile>
+    <ClCompile Include="int_to_type.cpp">
+      <Filter>src\idioms</Filter>
+    </ClCompile>
+    <ClCompile Include="iterator_pair.cpp">
+      <Filter>src\idioms</Filter>
+    </ClCompile>
+    <ClCompile Include="making_new_friends.cpp">
+      <Filter>src\idioms</Filter>
+    </ClCompile>
+    <ClCompile Include="metafunction.cpp">
+      <Filter>src\idioms</Filter>
+    </ClCompile>
+    <ClCompile Include="interface_class.cpp">
+      <Filter>src\idioms</Filter>
+    </ClCompile>
+    <ClCompile Include="move_constructor.cpp">
+      <Filter>src\idioms</Filter>
+    </ClCompile>
+    <ClCompile Include="multi_statement_macro.cpp">
+      <Filter>src\idioms</Filter>
+    </ClCompile>
+    <ClCompile Include="member_detector.cpp">
+      <Filter>src\idioms</Filter>
+    </ClCompile>
+    <ClCompile Include="named_constructor.cpp">
+      <Filter>src\idioms</Filter>
+    </ClCompile>
+    <ClCompile Include="named_external_argument.cpp">
+      <Filter>src\idioms</Filter>
+    </ClCompile>
+    <ClCompile Include="named_loop.cpp">
+      <Filter>src\idioms</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="inline_guard_macro.ipp">
+      <Filter>src\idioms</Filter>
+    </None>
   </ItemGroup>
 </Project>

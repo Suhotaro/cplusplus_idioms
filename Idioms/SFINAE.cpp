@@ -1,5 +1,4 @@
 #include "stdafx.h"
-#include "SFINAE.h"
 
 long multiply(int i, int j)
 {

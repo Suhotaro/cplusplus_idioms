@@ -1,5 +1,4 @@
 #include "stdafx.h"
-#include "counted_body__reference_counting.h"
 
 class StringRep
 {

@@ -1,5 +1,4 @@
 #include "stdafx.h"
-#include "non_throwing_swap.h"
 
 template<class T>
 void swap(T &a, T &b)

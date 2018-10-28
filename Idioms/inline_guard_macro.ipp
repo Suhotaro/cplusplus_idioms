@@ -1,0 +1,1 @@
+INLINE void Test::func() {}

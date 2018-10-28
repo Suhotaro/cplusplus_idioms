@@ -1,5 +1,4 @@
 #include "stdafx.h"
-#include "construct_on_first_use.h"
 
 class Bar { public: void f(){}};
 class Bar2 { public: void f(){}};

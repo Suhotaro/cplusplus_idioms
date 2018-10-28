@@ -1,5 +1,4 @@
 #include "stdafx.h"
-#include "calling_virtual_during_initialization.h"
 
 // 1:Two phase initialization technique
 class Base {

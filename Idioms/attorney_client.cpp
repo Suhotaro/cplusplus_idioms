@@ -1,5 +1,4 @@
 #include "stdafx.h"
-#include "attorney_client.h"
 
 class Client
 {
@@ -56,6 +55,14 @@ public:
 		return b.Func(x);
 	}
 	friend int main(void);
+};
+
+//----------------------------------------------------------
+
+class Attorney3 final : private Client
+{
+	// void CallA(int a) { Client::A(a); } // A must be bulic
+private:
 };
 
 //------------------------------------------------------------

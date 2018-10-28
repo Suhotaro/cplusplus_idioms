@@ -1,5 +1,4 @@
 #include "stdafx.h"
-#include "erase_remove.h"
 
 template<typename T>
 inline void erase_remove_impl(std::vector<T> & v, const T & item)

@@ -1,5 +1,4 @@
 #include "stdafx.h"
-#include "algebraic_hierarchy.h"
 
 #include <iostream>
 

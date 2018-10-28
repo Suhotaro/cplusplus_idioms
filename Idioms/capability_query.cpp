@@ -1,5 +1,4 @@
 #include "stdafx.h"
-#include "capability_query.h"
 
 class Shape { // An interface class
 public:

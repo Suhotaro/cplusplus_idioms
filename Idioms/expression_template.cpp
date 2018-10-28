@@ -1,5 +1,4 @@
 #include "stdafx.h"
-#include "expression_template.h"
 
 struct Var
 {

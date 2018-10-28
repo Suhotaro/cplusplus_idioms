@@ -1,5 +1,4 @@
 #include "stdafx.h"
-#include "boost_mutant.h"
 
 //POD
 template <class Pair>

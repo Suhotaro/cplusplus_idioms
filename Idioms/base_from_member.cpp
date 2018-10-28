@@ -1,5 +1,4 @@
 #include "stdafx.h"
-#include "base_from_member.h"
 
 class fdoutbuf : public std::streambuf {
 public:

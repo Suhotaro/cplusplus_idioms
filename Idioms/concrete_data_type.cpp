@@ -1,5 +1,4 @@
 #include "stdafx.h"
-#include "concrete_data_type.h"
 
 class EventHandler 
 {

@@ -1,5 +1,4 @@
 #include "stdafx.h"
-#include "empty_base_optimization.h"
 
 class EmptyClass {};
 EmptyClass arr[10];

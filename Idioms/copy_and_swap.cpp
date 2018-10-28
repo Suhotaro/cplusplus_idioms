@@ -1,5 +1,4 @@
 #include "stdafx.h"
-#include "copy_and_swap.h"
 
 class String
 {

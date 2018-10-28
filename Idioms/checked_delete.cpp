@@ -1,5 +1,4 @@
 #include "stdafx.h"
-#include "checked_delete.h"
 #include "deleter.h"
 #include "object.h"
 

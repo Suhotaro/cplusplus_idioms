@@ -1,5 +1,4 @@
 #include "stdafx.h"
-#include "coercion_by_member_template.h"
 
 template <class T>
 class Ptr

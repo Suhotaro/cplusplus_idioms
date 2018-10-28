@@ -1,5 +1,4 @@
 #include "stdafx.h"
-#include "computational_constructor.h"
 
 struct C
 {

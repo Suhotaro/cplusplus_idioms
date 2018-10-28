@@ -1,5 +1,4 @@
 #include "stdafx.h"
-#include "execute_around_pointer.h"
 
 //========================================================
 

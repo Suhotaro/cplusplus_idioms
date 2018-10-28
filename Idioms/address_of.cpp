@@ -1,5 +1,4 @@
 #include "stdafx.h"
-#include "address_of.h"
 
 class nonaddressable
 {

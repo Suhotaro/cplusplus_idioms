@@ -37,6 +37,12 @@
     <ClInclude Include="inline_guard_macro.h">
       <Filter>src\idioms</Filter>
     </ClInclude>
+    <ClInclude Include="object_template.cpp">
+      <Filter>src\idioms</Filter>
+    </ClInclude>
+    <ClInclude Include="nifty_counter.h">
+      <Filter>src\idioms</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -199,6 +205,48 @@
       <Filter>src\idioms</Filter>
     </ClCompile>
     <ClCompile Include="named_loop.cpp">
+      <Filter>src\idioms</Filter>
+    </ClCompile>
+    <ClCompile Include="non_member_non_friend_function.cpp">
+      <Filter>src\idioms</Filter>
+    </ClCompile>
+    <ClCompile Include="named_parameter.cpp">
+      <Filter>src\idioms</Filter>
+    </ClCompile>
+    <ClCompile Include="named_template_parameters.cpp">
+      <Filter>src\idioms</Filter>
+    </ClCompile>
+    <ClCompile Include="nifty_counter.cpp">
+      <Filter>src\idioms</Filter>
+    </ClCompile>
+    <ClCompile Include="non_copyable_mixin.cpp">
+      <Filter>src\idioms</Filter>
+    </ClCompile>
+    <ClCompile Include="parameterized_base_class.cpp">
+      <Filter>src\idioms</Filter>
+    </ClCompile>
+    <ClCompile Include="pimpl.cpp">
+      <Filter>src\idioms</Filter>
+    </ClCompile>
+    <ClCompile Include="policy_clone.cpp">
+      <Filter>src\idioms</Filter>
+    </ClCompile>
+    <ClCompile Include="policy_based_design.cpp">
+      <Filter>src\idioms</Filter>
+    </ClCompile>
+    <ClCompile Include="polymorphic_exception.cpp">
+      <Filter>src\idioms</Filter>
+    </ClCompile>
+    <ClCompile Include="polymorphic_value_types.cpp">
+      <Filter>src\idioms</Filter>
+    </ClCompile>
+    <ClCompile Include="recursive_type_composition.cpp">
+      <Filter>src\idioms</Filter>
+    </ClCompile>
+    <ClCompile Include="requiring_or_prohibiting_heap_based_objects.cpp">
+      <Filter>src\idioms</Filter>
+    </ClCompile>
+    <ClCompile Include="RAII.cpp">
       <Filter>src\idioms</Filter>
     </ClCompile>
   </ItemGroup>

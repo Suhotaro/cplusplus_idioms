@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -150,7 +150,9 @@
     <ClInclude Include="Idioms.h" />
     <ClInclude Include="include_guard _macro.h" />
     <ClInclude Include="inline_guard_macro.h" />
+    <ClInclude Include="nifty_counter.h" />
     <ClInclude Include="object.h" />
+    <ClInclude Include="object_template.cpp" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
@@ -206,9 +208,23 @@
     <ClCompile Include="named_constructor.cpp" />
     <ClCompile Include="named_external_argument.cpp" />
     <ClCompile Include="named_loop.cpp" />
-    <ClCompile Include="non_throwing_swap.cpp" />
     <ClCompile Include="non_virtual_Interface.cpp" />
-    <ClCompile Include="nullptr.cpp" />
+    <ClCompile Include="nullptr.cpp" />    
+    <ClCompile Include="named_parameter.cpp" />
+    <ClCompile Include="named_template_parameters.cpp" />
+    <ClCompile Include="nifty_counter.cpp" />
+    <ClCompile Include="non_copyable_mixin.cpp" />
+    <ClCompile Include="non_member_non_friend_function.cpp" />
+    <ClCompile Include="non_throwing_swap.cpp" />
+    <ClCompile Include="parameterized_base_class.cpp" />
+    <ClCompile Include="pimpl.cpp" />
+    <ClCompile Include="policy_based_design.cpp" />
+    <ClCompile Include="policy_clone.cpp" />
+    <ClCompile Include="polymorphic_exception.cpp" />
+    <ClCompile Include="polymorphic_value_types.cpp" />
+    <ClCompile Include="RAII.cpp" />
+    <ClCompile Include="recursive_type_composition.cpp" />
+    <ClCompile Include="requiring_or_prohibiting_heap_based_objects.cpp" />
     <ClCompile Include="SFINAE.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>

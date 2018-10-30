@@ -12,6 +12,8 @@ private:
 class CantCopy : private NonCopyable
 {};
 
+// C++11
+
 void non_copyable_mixin()
 {
 

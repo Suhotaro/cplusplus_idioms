@@ -2,7 +2,7 @@
 
 int main()
 {
-	iterator_pair();
+	parameterized_base_class();
 
 	return 0;
 }

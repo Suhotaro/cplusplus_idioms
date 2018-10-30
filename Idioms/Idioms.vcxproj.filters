@@ -201,6 +201,12 @@
     <ClCompile Include="named_loop.cpp">
       <Filter>src\idioms</Filter>
     </ClCompile>
+    <ClCompile Include="non_virtual_Interface.cpp">
+      <Filter>src\idioms</Filter>
+    </ClCompile>
+    <ClCompile Include="nullptr.cpp">
+      <Filter>src\idioms</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="inline_guard_macro.ipp">

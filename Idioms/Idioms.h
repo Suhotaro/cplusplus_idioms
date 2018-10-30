@@ -57,5 +57,8 @@ void nifty_counter();							// 53
 void non_copyable_mixin();						// 54
 void non_member_non_friend_function();			// 55
 void non_throwing_swap();						// 56
+void non_virtual_Interface();					// 57
+void nullptrr();								// 58
+void object_generator();						// 59
 
 void SFINAE();									// N+1

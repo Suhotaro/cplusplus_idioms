@@ -213,6 +213,12 @@
     <ClCompile Include="named_loop.cpp">
       <Filter>src\idioms</Filter>
     </ClCompile>
+    <ClCompile Include="non_virtual_Interface.cpp">
+      <Filter>src\idioms</Filter>
+    </ClCompile>
+    <ClCompile Include="nullptr.cpp">
+      <Filter>src\idioms</Filter>
+    </ClCompile>    
     <ClCompile Include="non_member_non_friend_function.cpp">
       <Filter>src\idioms</Filter>
     </ClCompile>

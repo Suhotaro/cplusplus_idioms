@@ -87,7 +87,7 @@
       <PrecompiledHeader>Use</PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
-      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>_SCL_SECURE_NO_WARNINGS;WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
     </ClCompile>
     <Link>
@@ -100,7 +100,7 @@
       <PrecompiledHeader>Use</PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
-      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>_SCL_SECURE_NO_WARNINGS;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
     </ClCompile>
     <Link>
@@ -115,7 +115,7 @@
       <Optimization>MaxSpeed</Optimization>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
-      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>_SCL_SECURE_NO_WARNINGS;WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
     </ClCompile>
     <Link>
@@ -132,7 +132,7 @@
       <Optimization>MaxSpeed</Optimization>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
-      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>_SCL_SECURE_NO_WARNINGS;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
     </ClCompile>
     <Link>
@@ -147,7 +147,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="deleter.h" />
-    <ClInclude Include="Idioms.h" />
+    <ClInclude Include="idioms.h" />
     <ClInclude Include="include_guard _macro.h" />
     <ClInclude Include="inline_guard_macro.h" />
     <ClInclude Include="nifty_counter.h" />
@@ -155,6 +155,7 @@
     <ClInclude Include="object_template.cpp" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
+    <ClInclude Include="util.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="address_of.cpp" />
@@ -223,13 +224,33 @@
     <ClCompile Include="RAII.cpp" />
     <ClCompile Include="recursive_type_composition.cpp" />
     <ClCompile Include="requiring_or_prohibiting_heap_based_objects.cpp" />
+    <ClCompile Include="resource_return.cpp" />
+    <ClCompile Include="return_type_resolver.cpp" />
+    <ClCompile Include="runtime_static_initialization_order_idioms.cpp" />
+    <ClCompile Include="safe_bool.cpp" />
+    <ClCompile Include="scoup_guard.cpp" />
     <ClCompile Include="SFINAE.cpp" />
+    <ClCompile Include="shortening_long_template_names.cpp" />
+    <ClCompile Include="shrink_to_fit.cpp" />
+    <ClCompile Include="small_object_optimization.cpp" />
+    <ClCompile Include="smart_pointer.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="storage_class_tracker.cpp" />
+    <ClCompile Include="tag_dispatch.cpp" />
+    <ClCompile Include="temporary_base_class.cpp" />
+    <ClCompile Include="temporary_proxy.cpp" />
+    <ClCompile Include="the_result_of_technique.cpp" />
+    <ClCompile Include="thin_template.cpp" />
+    <ClCompile Include="traits.cpp" />
+    <ClCompile Include="type_erasure.cpp" />
+    <ClCompile Include="type_generator.cpp" />
+    <ClCompile Include="type_safe_enum.cpp" />
+    <ClCompile Include="util.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="inline_guard_macro.ipp" />

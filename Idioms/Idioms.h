@@ -70,5 +70,22 @@ void polymorphic_value_types();						// 66
 void recursive_type_composition();					// 67
 void requiring_or_prohibiting_heap_based_objects(); // 68
 void RAII();										// 69
-
-void SFINAE();									// N+1
+void resource_return();								// 70
+void return_type_resolver();						// 71
+void runtime_static_initialization_order_idioms();	// 72
+void safe_bool();									// 73
+void scoup_guard();									// 74
+void SFINAE();										// 75
+void shortening_long_template_names();				// 76
+void shrink_to_fit();								// 77
+void small_object_optimization();					// 78
+void smart_pointer();								// 79
+void storage_class_tracker();						// 80
+void tag_dispatch();								// 81
+void temporary_base_class();						// 82
+void temporary_proxy();								// 83
+void the_result_of_technique();						// 84
+void thin_template();								// 85
+void traits();										// 86
+void type_erasure();								// 87
+void type_generator();								// 88

@@ -11,6 +11,9 @@
     <Filter Include="src\idioms\checked_delete">
       <UniqueIdentifier>{0259371a-d638-4855-86fb-9901d0278118}</UniqueIdentifier>
     </Filter>
+    <Filter Include="src\util">
+      <UniqueIdentifier>{7b1321c4-aa40-422f-8c95-a0f6fecd3fdf}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -28,9 +31,6 @@
     <ClInclude Include="object.h">
       <Filter>src\idioms\checked_delete</Filter>
     </ClInclude>
-    <ClInclude Include="Idioms.h">
-      <Filter>src</Filter>
-    </ClInclude>
     <ClInclude Include="include_guard _macro.h">
       <Filter>src\idioms</Filter>
     </ClInclude>
@@ -42,6 +42,12 @@
     </ClInclude>
     <ClInclude Include="nifty_counter.h">
       <Filter>src\idioms</Filter>
+    </ClInclude>
+    <ClInclude Include="util.h">
+      <Filter>src\util</Filter>
+    </ClInclude>
+    <ClInclude Include="idioms.h">
+      <Filter>src</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -247,6 +253,66 @@
       <Filter>src\idioms</Filter>
     </ClCompile>
     <ClCompile Include="RAII.cpp">
+      <Filter>src\idioms</Filter>
+    </ClCompile>
+    <ClCompile Include="shortening_long_template_names.cpp">
+      <Filter>src\idioms</Filter>
+    </ClCompile>
+    <ClCompile Include="shrink_to_fit.cpp">
+      <Filter>src\idioms</Filter>
+    </ClCompile>
+    <ClCompile Include="small_object_optimization.cpp">
+      <Filter>src\idioms</Filter>
+    </ClCompile>
+    <ClCompile Include="resource_return.cpp">
+      <Filter>src\idioms</Filter>
+    </ClCompile>
+    <ClCompile Include="return_type_resolver.cpp">
+      <Filter>src\idioms</Filter>
+    </ClCompile>
+    <ClCompile Include="util.cpp">
+      <Filter>src\util</Filter>
+    </ClCompile>
+    <ClCompile Include="runtime_static_initialization_order_idioms.cpp">
+      <Filter>src\idioms</Filter>
+    </ClCompile>
+    <ClCompile Include="safe_bool.cpp">
+      <Filter>src\idioms</Filter>
+    </ClCompile>
+    <ClCompile Include="scoup_guard.cpp">
+      <Filter>src\idioms</Filter>
+    </ClCompile>
+    <ClCompile Include="smart_pointer.cpp">
+      <Filter>src\idioms</Filter>
+    </ClCompile>
+    <ClCompile Include="storage_class_tracker.cpp">
+      <Filter>src\idioms</Filter>
+    </ClCompile>
+    <ClCompile Include="tag_dispatch.cpp">
+      <Filter>src\idioms</Filter>
+    </ClCompile>
+    <ClCompile Include="temporary_base_class.cpp">
+      <Filter>src\idioms</Filter>
+    </ClCompile>
+    <ClCompile Include="temporary_proxy.cpp">
+      <Filter>src\idioms</Filter>
+    </ClCompile>
+    <ClCompile Include="the_result_of_technique.cpp">
+      <Filter>src\idioms</Filter>
+    </ClCompile>
+    <ClCompile Include="thin_template.cpp">
+      <Filter>src\idioms</Filter>
+    </ClCompile>
+    <ClCompile Include="traits.cpp">
+      <Filter>src\idioms</Filter>
+    </ClCompile>
+    <ClCompile Include="type_erasure.cpp">
+      <Filter>src\idioms</Filter>
+    </ClCompile>
+    <ClCompile Include="type_generator.cpp">
+      <Filter>src\idioms</Filter>
+    </ClCompile>
+    <ClCompile Include="type_safe_enum.cpp">
       <Filter>src\idioms</Filter>
     </ClCompile>
   </ItemGroup>

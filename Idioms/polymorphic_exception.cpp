@@ -25,4 +25,5 @@ void polymorphic_exception()
 	catch (...) {
 		// not here anymore!
 	}
+
 }

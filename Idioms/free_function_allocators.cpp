@@ -24,8 +24,6 @@ struct user_allocator_nedmalloc
 
 void free_function_allocators()
 {
-	allocator<int> alloc;
-
 	//NOTE: quite difficult to implement custom since it must sutisfy the standrd one
 	//vector<int, user_allocator_nedmalloc<int>> v; 
 	vector<int, allocator<int>> v;

@@ -2,7 +2,7 @@
 
 int main()
 {
-	parameterized_base_class();
+	safe_bool();
 
 	return 0;
 }
